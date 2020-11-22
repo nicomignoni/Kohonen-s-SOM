@@ -28,7 +28,7 @@ from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 import numpy as np
 
-from mapping import SOM
+from som.mapping import SOM
 
 dataset = load_iris()
 train = dataset.data
